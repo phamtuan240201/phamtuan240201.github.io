@@ -1,0 +1,300 @@
+
+@font-face{
+    font-family:Raleway;
+    src:url("fonts/Raleway.ttf");
+}
+@font-face{
+    font-family:PTSans-Regular;
+    src:url("fonts/PTSans-Regular.ttf");
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.clearfix{
+    content:"";
+    clear:both;
+    display:table;
+}
+.container{
+    width:1124px;
+    margin:0 auto;
+
+}
+/*start header*/
+header{
+    /* background: linear-gradient(181deg,#1FA2FF,#12D8FA,#2980b9); */
+	background:#3bcacc;
+}
+body{
+    background: rgb(240,240,240);
+}
+.logo_header{
+    display: inline-block;
+}
+.logo_header img{
+    width:55px;
+}
+.menu_header{
+    list-style: none;
+    float:left;
+}
+.menu_header .nav_link{
+    text-decoration: none;
+    color:rgb(238,238,238);
+    margin-left:40px;
+    color: white;
+}
+
+.menu_header1{
+    list-style: none;
+    float:left;
+}
+.menu_header1 .nav_link{
+    text-decoration: none;
+    color:rgb(238,238,238);
+    margin-left:40px;
+    color: #1d5cbc;
+}
+
+.menu{
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.form_search{
+    float:right;
+}
+.logo_search{
+    display: inline-block;
+    position: relative;
+    top:2px;
+}
+.search{
+    display: inline-block;
+    margin-top:27px;
+}
+.search input{
+    padding: 3px 20px 3px 3px;
+}
+.menu1{
+	color:green;
+}
+/*end header*/
+/*start overlay*/
+.body_overlay{
+    background-image:url('images/water2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 395px;
+}
+.overlay{
+    visibility: hidden;
+    width:924px;
+    opacity:0.4;
+    text-align: center;
+    padding: 100px;
+    position: relative;
+    top:71px;
+}
+.body_overlay:hover .overlay{
+    color:white;
+    visibility:visible;
+    padding-top:30px;
+    background:#000000d6;
+    text-align: center;
+    opacity:0.4;
+    text-align: center;
+    padding: 100px;
+    -webkit-transition-duration:3s;
+    z-index:1;
+}
+.text_overlay{
+    z-index:2;
+    font-size:32px;
+}
+/*end overlay*/
+/*start main content*/
+.column_left{
+    float:left;
+    width:700px;
+    margin-top:50px;
+}
+.column_right{
+    float:right;
+    width:350px;
+    margin-top:77px;
+}
+.warning img{
+    width:30px;
+    display: inline-block;
+}
+.warning{
+    margin-top:30px;
+}
+.h1{
+    display: inline-block;
+    font-size:1.75rem;
+    color: #bf3048;
+}
+/* column_left */
+
+h4{
+    font-size:1.5em;
+    color:#79B8E4;
+}
+.post1{
+    font-family:PTSans-Regular;
+    font-size:17px;
+}
+.text_indent{
+    text-indent:20px;
+}
+.define{
+    display:block;
+    font-size:1.75rem;
+    margin-top:20px;
+    color:#2b32bb ;
+}
+.read_more img{
+	width:30px;
+	display:inline-block;
+}
+.read_more{
+    text-decoration: none;
+    display: inline-block;
+}
+.read_more:hover{
+    color:#bf3048;
+	text-decoration:underline;
+}
+.back_home_page{
+	text-decoration:none;
+}
+.back_home_page:hover{
+	color:#bf3048;
+	text-decoration:underline;
+}
+.img_pollution{
+    margin-top:20px;
+    padding-bottom:20px;
+    width:100%;
+}
+.image_source img{
+    width:50%;
+    float:left;
+}
+.content_1{
+    margin-top:20px;
+    font-family:PTSans-Regular;
+    font-size:17px;
+}
+.content_1 img{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.post1 img{
+	margin-top:20px;
+	padding-bottom:20px;
+}
+.pollution_water img{
+    width:50%;
+    float:left;
+}
+.cleanwater1incontent img{
+    margin-top:10px;
+    width:350px;
+    float:left;
+}
+.the_role_of_water{
+    list-style-type: none;
+    text-indent:20px;
+}
+.therefore{
+    margin-top:1em;
+}
+
+
+/* end column_left */
+
+/* start column_right */
+.content_of_column_right{
+    border: 1px solid rgb(138,138,138);
+    background: white;
+}
+.main_content_of_the_page{
+	background:#2689b1;
+}
+.page_information{
+    border: 1px solid rgb(138,138,138);
+    margin-top: 30px;
+    background: white;
+}
+.main_content_of_the_page{
+    color:white;
+    padding-left:10px;
+    padding-top: 7px;
+}
+.title_of_column_right{
+    list-style: none;
+    line-height: 1.5;
+    padding: 20px;
+}
+.title_of_column_right img{
+    width:30px;
+}
+.title_of_column_right span{
+    position: relative;
+    top:-6px;
+}
+.title_of_column_right a{
+    text-decoration: none;
+	color:black;
+}
+.title_of_column_right a:hover{
+    color:#2b32bb;
+}
+.title_of_column_right li:hover{
+    color:#2b32bb;
+}
+/* end column_right */
+/*end main content*/
+
+/* start footer*/
+.footer{
+    background:linear-gradient(181deg,#1FA2FF,#12D8FA,#2980b9);
+    padding-bottom:40px;
+    padding-top:1em ;
+    color:white;
+    margin-top: 40px;
+}
+.column_footer{
+    text-align: center;
+}
+.iconfacebook img{
+    width:25px;
+}
+.iconemail img{
+    width:39px;
+    margin-left:10px;
+    position: relative;
+    top:2px;
+}
+.contact_us{
+    color:#e4210d;
+}
+.donors img{
+	text-align:center;
+	width:80px;
+	position:relative
+}
+.donors{
+	text-align:center;
+}
+.reach{
+	display:block;
+	margin-top:20px;
+}
+.donors img{
+	margin-top:10px;
+}
+/*end footer */
